@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #161617;
+  color: white;
+  line-height: 40px;
+  margin: 5%;
+
+}
+
+h1 {
+
+  margin-left: 5%;
+  margin-bottom: 3%;
+  font-size: 150px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin: 10% 10%;
+  font-size: 80px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+.hej {
+  margin-top: 15%;
+  padding: 10px;
+  opacity: 1;
+}
+
+.name {
+  margin-bottom: 5%;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.img-rayane :hover,
+a {
+  border-radius: 20px 10px;
+}
+
+
+.btn-wagon {
+  color: rgb(255, 255, 255);
+  background-color: #d23133;
+  text-decoration: none;
+  padding: 20px 60px;
+  width: 30px;
+  height: 3px;
+  margin-left: 8%;
+  line-height: 80px;
+  border: 3px solid white;
+  border-radius: 50px 50px;
+
+
+
+}
+
+.btn-wagon:hover {
+  color: #d23133;
+  background: white;
+  transition-duration: 0.5s;
+  border: 3px solid #d23133;
+}
+
+
+
+p {
+  width: 70%;
+  display: flex;
+  margin: auto;
+
+
+}
+
+.first-p {
+  margin-left: 6%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.095);
+  width: 40%;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 10px 10px;
+
+}
+
+.line {
+  rotate: 90deg;
+  font-weight: 200;
+  width: 20%;
+  margin-top: 15%;
+  margin-bottom: 2%;
+  margin-left: 40%;
+  color: white;
+  box-sizing: border-box;
+
+}
+
+
+
+.img-rayane {
+
+  font-size: 100px;
+  border: 5px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+  opacity: 0.2;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.img-rayane:hover {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: rotateY(360deg);
+
+}
+
+footer {
+  margin: auto;
+  height: 400px;
+  background-color: white;
+}
